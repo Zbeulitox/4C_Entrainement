@@ -1,0 +1,48 @@
+.addBtn {
+    padding: 2px;
+    width: 15%;
+    background: black;
+    color : white;
+  
+        }
+
+.addBtn:hover {
+
+    background: gray;
+}
+
+.header {
+
+    text-align : center ;
+    padding : 4px;
+    width : 100%;
+    margin: auto;
+    border : 3px solid #706B5C ;
+    background-color : #38362E ;
+        }
+
+h1 {
+
+text-align : center;
+margin : auto;
+background-color :  #706B5C;
+    }
+
+html, body {
+    margin:0;
+    padding:0;
+           }
+
+.ul, li {
+
+    margin : 0;
+    padding: 12px 8px 12px 40px;
+    position: relative;
+    border : 1px solid black;
+    background-color : #F0F0F0;
+}
+
+.ul, li:hover {
+
+    background-color : #F7F7F7;
+}

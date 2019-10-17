@@ -1,0 +1,36 @@
+p
+{
+    font-size: 14px; /* Paragraphes de 14 pixels */
+}
+header
+{
+    font-size: 40px;
+    border: 1px black solid /* Titres de 40 pixels */
+}
+
+
+.b {
+	border: 1px black solid;
+}
+.fa-facebook-square {
+	color: #3b5998;
+}
+.fa-twitter {
+	color: #33ccff;
+}
+.fa-youtube {
+	color: #cc181e ;
+}
+#conteneur{
+	display: flex;
+	flex-direction: column;
+}
+.background {
+	float : right;
+max-width: 200%;
+	height: auto;
+}
+.carousel-inner img {
+	margin: auto;
+	
+}
