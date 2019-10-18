@@ -5,7 +5,7 @@ function newElement() {
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
-    alert("You must write something!");
+    alert("Champ invalide");
   } else {
     document.getElementById("myUL").appendChild(li);
   }
@@ -27,12 +27,12 @@ function newElement() {
   }
 }
 // Permet de créer un bouton
-var myNodelist = document.getElementsByTagName("LI");
+var liste = document.getElementsByTagName("LI");
 var i;
-for (i = 0; i < myNodelist.length; i++) {
+for (i = 0; i < liste.length; i++) {
   var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
+  var texte = document.createTextNode("\u00D7");
   span.className = "close";
-  span.appendChild(txt);
-  myNodelist[i].appendChild(span);
+  span.appendChild(texte);
+  liste[i].appendChild(span);
 }

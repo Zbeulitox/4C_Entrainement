@@ -1,6 +1,9 @@
 html, body {
     margin:0;
     padding:0;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
            }
 
 .addBtn {
@@ -13,7 +16,9 @@ html, body {
 
 .addBtn:hover {
 
-    background: gray;
+    background: white;
+    color : black;
+    cursor : pointer;
 }
 
 .header {
@@ -30,6 +35,7 @@ text-align : center;
 margin :auto ;
 padding : auto;
 background-color :  #706B5C;
+text-shadow: color="red";
     }
 
 .ul, li {
@@ -57,4 +63,5 @@ background-color :  #706B5C;
 .close:hover {
     background-color: black ;
     color: white;
+    cursor : pointer;
   }
